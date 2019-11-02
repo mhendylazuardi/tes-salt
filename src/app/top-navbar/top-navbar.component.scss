@@ -1,0 +1,56 @@
+nav{
+  background-color: #953E46;
+  color: #F4E4CD;
+  .navbar-brand{
+    font-size: 1.8rem;
+    font-weight: 100;
+  }
+  .collapse{
+    form{
+      input, button{
+        background-color: #F4E4CD;
+        color: #953E46;
+        border-radius: 0;
+        border: none;
+        height: auto;
+      }
+      input{
+        width: 23rem;
+      }
+      input:focus, button:focus{
+        outline: none;
+      }
+    }
+    .navbar-nav{
+      .nav-item{
+        .nav-link{
+          .btn{
+            background-color: #F4E4CD;
+            color: #953E46;
+            border-radius: 0;
+          }
+        }
+        div{
+          strong{
+            display: block;
+            .first-name{
+              font-size: 19px;
+            }
+            .quote{
+              margin-left: 5px;
+              background-color: #F4E4CD;
+              border-radius: 10px;
+              padding: 0 4px;
+              i{
+                color: #953E46;
+                font-size: 13px;
+                padding: auto;
+              }
+            }
+          }
+        }
+      }
+    }
+
+  }
+}
