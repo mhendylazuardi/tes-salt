@@ -1,0 +1,42 @@
+div{
+  color: #F4E4CD;
+  margin-left: 0.5rem;
+  .recent{
+    border-bottom: 1.5px solid #F4E4CD;
+    span{
+      margin-bottom: 8px;
+    }
+  }
+  .row{
+    margin: 0.5rem 0;
+    margin-left: 0;
+    .card{
+      margin-top: 10px;
+      height: 5rem;
+      width: 9rem;
+      border-radius: 0;
+      background-color: #F4E4CD;
+      color: #953E46;
+      .card-body{
+        color: #953E46;
+        position: absolute;
+        bottom: 0;
+        padding: 0;
+      }
+    }
+    .text{
+      div{
+        margin-left: 0;
+      }
+      span{
+        display: inline-flex;
+        small{
+          margin-left: 5px;
+        }
+      }
+      small{
+        display: block;
+      }
+    }
+  }
+}

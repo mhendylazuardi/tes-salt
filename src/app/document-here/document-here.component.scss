@@ -1,0 +1,111 @@
+.row{
+  margin-top: 2rem;
+  .row{
+    margin-top: 0;
+    .col-8, .col-12{
+      padding-left: 30px;
+    }
+  }
+  color: #F4E4CD;
+  .card{
+    border-radius: 0;
+  }
+  .photo{
+    img{
+      height: 17.5rem;
+    }
+    .card{
+      width: 31rem;
+      height: 22rem;
+      padding: 3px 8px;
+      background-color: #F4E4CD;
+      .card-body{
+        color: #953E46;
+        padding: 0;
+        span{
+          color: #953E46;
+          display: block;
+          margin-bottom: -0.35rem;
+        }
+      }
+    }
+    .wrapper{
+      display: inline-flex;
+      .card-horizontal{
+        width: 15rem;
+        height: 10.76rem;
+        margin: 1rem 1rem 0 0;
+        img{
+          height: 7rem;
+        }
+        .card-body{
+          background-color: #F4E4CD;
+          color: #953E46;
+          padding: 0;
+          span{
+            color: #953E46;
+            display: block;
+          }
+        }
+      }
+    }
+
+  }
+  .photo-small{
+    .card-vertical:first-of-type{
+      margin-top: 0;
+    }
+    .card-vertical{
+      height: 10.76rem;
+      padding: 3px 8px;
+      margin-top: 0.7rem;
+      background-color: #F4E4CD;
+      img{
+        height: 8rem;
+      }
+      .card-body{
+        color: #953E46;
+        padding: 0;
+        span{
+          color: #953E46;
+          display: block;
+          margin-bottom: -0.35rem;
+        }
+      }
+
+    }
+    .card-vertical:last-of-type{
+      background-color: #953E46;
+      border: 1px solid #F4E4CD;
+      .no-data{
+        width: 70%;
+        display: inline-flex;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        div{
+          span{
+            display: block;
+          }
+          span, small{
+            color: #F4E4CD;
+          }
+          i{
+            padding: 14px 15px;
+          }
+        }
+        .icon{
+          border: 1px solid #f4e3cd;
+          border-radius: 100%;
+        }
+        .text{
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+
+
+}
+

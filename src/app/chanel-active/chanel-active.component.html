@@ -1,0 +1,15 @@
+<div>
+  <div class="recent">
+    <span>Channel</span>
+    <span class="float-right">Browse all channel</span>
+  </div>
+  <div class="row">
+    <div class="col-5" *ngFor="let data of channel">
+      <div class="card">
+        <div class="card-body">
+          {{data.channel}}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

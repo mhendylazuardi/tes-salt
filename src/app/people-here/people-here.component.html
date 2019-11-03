@@ -1,0 +1,78 @@
+<div class="row">
+  <div class="col-12">
+    <div class="row title">
+      <div class="col-6">
+        <h5>People</h5>
+      </div>
+      <div class="col-6">
+        View all
+      </div>
+    </div>
+  </div>
+  <div class="row" >
+    <div class="col-8 photo">
+      <div class="card">
+        <img [src]="data[0].img" alt="tes">
+        <div class="card-body">
+          <span>{{data[0].name}}</span>
+          <span class="float-right">{{data[0].views}} views</span>
+          <small>{{data[0].motto}}</small>
+        </div>
+      </div>
+      <div class="wrapper">
+        <div class="card card-horizontal">
+          <img [src]="data[3].img" alt="tes">
+          <div class="card-body">
+            <span class="small-last">{{data[3].name}}</span>
+            <span class="float-right small-last">{{data[3].views}} views</span>
+
+            <!--            <small>{{data[3].motto}}</small>-->
+          </div>
+        </div>
+        <div class="card card-horizontal">
+          <img [src]="data[4].img" alt="tes">
+          <div class="card-body">
+            <span class="small-last">{{data[4].name}}</span>
+            <span class="float-right small-last">{{data[4].views}} views</span>
+
+            <!--            <small>{{data[4].motto}}</small>-->
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="col-4 photo-small">
+      <div class="card card-vertical">
+        <img [src]="data[1].img" alt="tes">
+        <div class="card-body">
+          <span class="small-last">{{data[1].name}}</span>
+<!--          <small>{{data[1].motto}}</small>-->
+        </div>
+      </div>
+      <div class="card card-vertical">
+        <img [src]="data[2].img" alt="tes">
+        <div class="card-body">
+          <span class="small-last">{{data[2].name}}</span>
+          <span class="float-right small-last">{{data[2].views}} views</span>
+
+          <!--          <small>{{data[2].motto}}</small>-->
+        </div>
+      </div>
+      <div class="card card-vertical">
+        <div class="no-data">
+          <div class="icon">
+            <i class="fa fa-suitcase"></i>
+          </div>
+          <div class="text">
+            <span> Show</span>
+            <small>Your work</small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 photo-small">
+
+    </div>
+  </div>
+
+</div>

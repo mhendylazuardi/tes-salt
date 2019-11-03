@@ -1,0 +1,74 @@
+<div class="row">
+  <div class="col-12">
+    <div class="row title">
+      <div class="col-6">
+        <h5>Videos</h5>
+      </div>
+      <div class="col-6">
+        Browse all videos
+      </div>
+    </div>
+  </div>
+  <div class="row" >
+    <div class="col-8 photo">
+      <div class="card">
+        <img [src]="data[0].img" alt="tes">
+        <div class="card-body">
+          <span>{{data[0].dummy}}</span>
+          <small class="float-right">
+            {{data[0].views}} views
+          </small>
+          <small>{{data[0].name}}</small>
+        </div>
+      </div>
+      <div class="wrapper">
+        <div class="card card-horizontal">
+          <img [src]="data[3].img" alt="tes">
+          <div class="card-body">
+            <span>{{data[3].dummy}}</span>
+            <small>{{data[3].views}} views</small>
+          </div>
+        </div>
+        <div class="card card-horizontal">
+          <img [src]="data[4].img" alt="tes">
+          <div class="card-body">
+            <span>{{data[4].dummy}}</span>
+            <small>{{data[4].views}} views</small>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="col-4 photo-small">
+      <div class="card card-vertical">
+        <img [src]="data[1].img" alt="tes">
+        <div class="card-body">
+          <span>{{data[1].dummy}}</span>
+          <small>{{data[1].views}} views</small>
+        </div>
+      </div>
+      <div class="card card-vertical">
+        <img [src]="data[2].img" alt="tes">
+        <div class="card-body">
+          <span>{{data[2].dummy}}</span>
+          <small>{{data[2].name}} views</small>
+        </div>
+      </div>
+      <div class="card card-vertical">
+        <div class="no-data">
+          <div class="icon">
+            <i class="fa fa-plus"></i>
+          </div>
+          <div class="text">
+            <span> Share</span>
+            <small>Your document</small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 photo-small">
+
+    </div>
+  </div>
+
+</div>
