@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {data} from '../data';
 
 @Component({
   selector: 'app-recent-activity',
@@ -6,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./recent-activity.component.scss']
 })
 export class RecentActivityComponent implements OnInit {
-
+  public data = data;
   constructor() { }
 
   ngOnInit() {

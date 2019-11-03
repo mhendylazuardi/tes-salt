@@ -3,4 +3,15 @@
     <span>Activity</span>
     <span class="float-right">View timeline / Filter activities</span>
   </div>
+  <div class="row" *ngFor="let data of data">
+    <div class="col-5">
+      <div class="card">
+      </div>
+    </div>
+    <div class="col-7 text">
+      <div><span>{{data.name}}<small>{{data.activities}}</small></span></div>
+      <small>{{data.do_something}}</small>
+      <small>{{data.time}}</small>
+    </div>
+  </div>
 </div>

@@ -9,16 +9,20 @@ import { AngularFontAwesomeModule } from 'angular-font-awesome';
 import {MatCardModule, MatGridListModule} from '@angular/material';
 import { PagePositionComponent } from './page-position/page-position.component';
 import { VideoSectionComponent } from './video-section/video-section.component';
-import { PhotoAlbumComponent } from './photo-album/photo-album.component';
 import { RecentActivityComponent } from './recent-activity/recent-activity.component';
+import { PeopleHereComponent } from './people-here/people-here.component';
+import { DocumentHereComponent } from './document-here/document-here.component';
+import { ChanelActiveComponent } from './chanel-active/chanel-active.component';
 @NgModule({
   declarations: [
     AppComponent,
     TopNavbarComponent,
     PagePositionComponent,
     VideoSectionComponent,
-    PhotoAlbumComponent,
     RecentActivityComponent,
+    PeopleHereComponent,
+    DocumentHereComponent,
+    ChanelActiveComponent,
   ],
   imports: [
     BrowserModule,
