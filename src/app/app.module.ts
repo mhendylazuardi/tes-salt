@@ -13,6 +13,7 @@ import { RecentActivityComponent } from './recent-activity/recent-activity.compo
 import { PeopleHereComponent } from './people-here/people-here.component';
 import { DocumentHereComponent } from './document-here/document-here.component';
 import { ChanelActiveComponent } from './chanel-active/chanel-active.component';
+import { FooterSectionComponent } from './footer-section/footer-section.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,6 +24,7 @@ import { ChanelActiveComponent } from './chanel-active/chanel-active.component';
     PeopleHereComponent,
     DocumentHereComponent,
     ChanelActiveComponent,
+    FooterSectionComponent,
   ],
   imports: [
     BrowserModule,

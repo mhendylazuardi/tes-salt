@@ -1,0 +1,24 @@
+.first{
+  border-top: 1px solid #F4E4CD;
+  color: #F4E4CD;
+  margin-top: 2rem;
+  .social-section{
+    display: inline-flex;
+
+    .social-media{
+      margin-top: 1.3rem;
+      background-color: #F4E4CD;
+      color: #953E46;
+      padding: 8px;
+      margin-right: 1rem;
+    }
+  }
+  .referal{
+    margin-top: 1rem;
+    span{
+      margin-right: 0.6rem;
+      overflow-y: auto;
+
+    }
+  }
+}
